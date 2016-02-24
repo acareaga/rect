@@ -14,7 +14,7 @@
     "Rectangle"
   ],
   "author": "Aaron Careaga <aaroncareaga@gmail.com> (http://www.aaroncareaga.com/)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/acareaga/rect/issues"
   },
