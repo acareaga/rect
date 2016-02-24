@@ -48,6 +48,29 @@ describe('Rectangle', function(){
       assert(this.rect.height, 4);
     });
 
+    describe('#perimeter', function(){
+
+      it('should have a perimeter method', function(){
+        assert(Rectangle.prototype.perimeter);
+      });
+
+      it('should return the perimeter of the rectangle', function(){
+        var rect = new Rectangle(0, 0, 10, 10);
+        assert.equal(rect.perimeter(), 40);
+      });
+    });
+
+    describe('#area', function(){
+
+      it('should have a area method', function(){
+        assert(Rectangle.prototype.area);
+      });
+
+      it('should return the area of the rectangle', function(){
+        var rect = new Rectangle(0, 0, 10, 10);
+        assert.equal(rect.area(), 100);
+      });
+    });
 
   })
 });
